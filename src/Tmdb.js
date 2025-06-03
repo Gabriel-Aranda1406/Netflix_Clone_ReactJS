@@ -1,5 +1,4 @@
-const API_KEY = '9db399bf44e7797d5ef6ac57f94fdcbd';
-const API_BASE = 'https://api.themoviedb.org/3';
+import { API_KEY, API_BASE } from './config';
 
 /*
 - originaais da Netflix

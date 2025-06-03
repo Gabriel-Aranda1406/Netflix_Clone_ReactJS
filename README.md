@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# AluraFlix 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone da Netflix desenvolvido em **React** como projeto final do Bootcamp **Oracle Next Education** em parceria com a **Alura**.
 
-## Available Scripts
+## 📄 Descrição
 
-In the project directory, you can run:
+O **AluraFlix** é um projeto que simula a interface e funcionalidades básicas da Netflix, utilizando tecnologias modernas de desenvolvimento front-end.
 
-### `npm start`
+🎯 **Objetivo do projeto**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido para colocar em prática conceitos fundamentais de desenvolvimento Front-End com React, consumo de APIs REST, além de boas práticas de responsividade e estilização.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **ReactJS**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **The Movie Database API (TMDb)**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Exibição de lista de filmes e séries com dados reais consumidos da **API do The Movie Database (TMDb)**.
+- Interface responsiva inspirada na Netflix.
+- Componentização com React.
+- Consumo de APIs com `fetch` ou `axios`.
+- Rotas com React Router (se aplicável).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Configuração da API Key
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para rodar o projeto, é necessário gerar sua própria API Key no site do [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Crie uma conta no TMDb.
+2. Acesse sua área de desenvolvedor e gere uma API Key.
+3. Substitua a chave no arquivo de configuração (`src/config.js`) pelo seu próprio valor.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🖼️ Imagem da Aplicação
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Aqui eu deixei um screenshot da aplicação (na visão para celulares) para mostrar a interface.
+Exemplo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Tela Inicial](./Tela_celular.jpeg)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Instalação e Execução
 
-### Making a Progressive Web App
+Para rodar o projeto localmente, execute os comandos abaixo no terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/Gabriel-Aranda1406/Netflix_Clone_ReactJS.git && \
 
-### Advanced Configuration
+cd Netflix_Clone_ReactJS && \
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install && \
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
