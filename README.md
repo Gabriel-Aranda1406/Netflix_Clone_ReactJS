@@ -27,7 +27,7 @@ Este projeto foi desenvolvido para colocar em prática conceitos fundamentais de
 - Exibição de lista de filmes e séries com dados reais consumidos da **API do The Movie Database (TMDb)**.
 - Interface responsiva inspirada na Netflix.
 - Componentização com React.
-- Consumo de APIs com `fetch` ou `axios`.
+- Consumo de APIs com `fetch`.
 - Rotas com React Router (se aplicável).
 
 ---
